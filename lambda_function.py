@@ -95,7 +95,7 @@ def track_order(intent_request):
                         })
     else:
         return close(intent_request['sessionAttributes'],
-                        'Fulfilled',
+                        'Failed',
                         {
                             'contentType': 'PlainText',
                             'content': 'Tracking number {} not found in records.'.format(tracking_number)
