@@ -5,6 +5,7 @@ Through the Amazon Lex console, import the bot by uploading the *OrderTracker.js
 
 ## How to setup Amazon Lambda
 Zip *lambda_handeler.py* and *pymysql* folders
+
 Create a function then upload the zip file in the Amazon Lambda console
 
 ## How to setup Amazon RDS
